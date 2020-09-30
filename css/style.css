@@ -1,0 +1,631 @@
+/* Google fonts link*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&family=Raleway:ital,wght@0,300;0,700;1,300;1,600&display=swap');
+html{
+    scroll-behavior: smooth; 
+}
+/* ------ */
+.sticky{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+}
+/* Nav bar css start from here */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background: #000;
+    padding: 7px 0;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.nav-link{
+    color: #ffffff !important;
+    font-size: 14px !important;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-toggler-icon{
+    background: none;
+    color: #ffffff;
+    outline: none;
+    font-size: 21px;
+}
+header i.fa.fa-bars{
+    margin-top: 7px;
+}
+/* Nav bar css end from here */
+
+/* banner part css start from here */
+.banner{
+    width: 100%;
+    background: url('../img/banner-image.png') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner .left-content, .right-content{
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner .left-content h2{
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0;
+}
+.banner .left-content .line{
+    width: 80px;
+    height: 3px;
+    background: #ffffff;
+    margin: 30px 0;
+}
+.banner .left-content p{
+    font-size: 16px;
+    color: #ffffff !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px !important;
+    margin-bottom: 0;
+}
+.banner .butn{
+    background: none;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 0;
+    border: 2px solid #fff;
+    padding: 8px 25px;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.banner .card{
+    border: none;
+    margin-left: 150px;
+}
+.right-content h4{
+    color: #333333;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.right-content span{
+    color: #ff8b38;
+    text-transform: uppercase;
+}
+.right-content .form-control{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #D6D6D6;
+    border-radius: 0;
+    margin-bottom: 15px;
+    color: #bdbdbd;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.right-content .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.right-content .form-control:placeholder{
+    color: #D6D6D6 !important;
+}
+.right-content .card-footer{
+    background: #FF9B51;
+}
+.right-content .card-footer .form-control{
+    border-bottom: none;
+    margin-bottom: 0;
+    background: #FF9B51;
+    color: #ffffff;
+    font-size: 15px;
+}
+/* banner part css start from here */
+
+
+/* Social area css start from here */
+.social-area{
+    width: 100%;
+    background: #FFFFFF;
+    padding: 15px 0;
+    border-bottom: 2px solid #B7B7B7;
+}
+.social-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.social-text p{
+    font-family: 'Open Sans', sans-serif;
+    color: #86878b;
+    font-size: 14px;
+    margin: 0;
+}
+.social-icons{
+    text-align: right;
+}
+.social-icons ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social-icons ul li{
+    display: inline-block;
+}
+.social-icons ul li a{
+    font-size: 48px;
+    color: #cccccc;
+    margin-left: 30px;
+}
+/* Social area css end from here */
+
+
+/* Tab part css start from here */
+.tab-part{
+    width: 100%;
+    background: #F5F5F5;
+    padding: 120px 0;
+    padding-bottom: 80px;
+}
+.tab-part ul li{
+    list-style: none;
+    height: 110px;
+    line-height: 110px;
+    width: 120px;
+    background: #333333;
+    text-align: center;
+    border-bottom: 1px solid #F5F5F5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.tab-part h4{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.tab-part p{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878b;
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+.tab-part .btn{
+    background: #FF8B38;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 7px 20px;
+    margin-top: 30px;
+    border-radius: 3px !important;
+}
+
+.tab-part .btn:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.tab-img img{
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+}
+.bottom-text{
+    margin-top: 30px;
+}
+.active-color{
+    background: #FF8B38 !important;
+}
+/* Tab part css end from here */
+
+
+/* Sublist part css start from here*/
+.sub-list{
+    width: 100%;
+    padding: 100px 0;
+    padding-bottom: 80px;
+}
+.list-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #212121;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.line{
+    width: 70px;
+    height: 2px;
+    background: #FF8B38;
+    margin: 15px 0;
+}
+.list-text h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #212121;
+    font-size: 14px;
+}
+.list-text .icon-align{
+    padding-left: 0;
+}
+.list-text .for-mrgn{
+    margin-top: 29px;
+}
+.circle-icon{
+    height: 50px;
+    width: 50px;
+    border: 2px solid #FF8B38;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+}
+.circle-icon i{
+    font-size: 18px;
+    color: #FF8B38;
+}
+.list-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin: 0;
+}
+/* Sublist part css end from here*/
+
+
+/* Picture section css start from here*/
+.picture-part{
+    width: 100%;
+    padding: 100px 0;
+    padding-bottom: 80px;
+    background: #F5F5F5;
+}
+.pic-part-text{
+    padding: 20px 10px;
+}
+.pic-part-text h4{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #212121;
+    font-size: 20px;
+}
+.pic-part-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 0;
+}
+.pic img{
+    margin: 0 auto;
+    display: block;
+}
+
+/* Picture section css end from here*/
+
+
+/*Awesome part css start from here */
+.awesome-part{
+    width: 100%;
+    padding: 100px 0; 
+    padding-bottom: 80px;
+}
+.awesome-top{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.awesome-top .line{
+    margin: 0 auto;
+}
+.awesome-top h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    color: #212121;
+    margin: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.awesome-top p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.item{
+    text-align: center;
+}
+.item h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 0;
+    margin: 20px 0;
+}
+.item p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 0;
+}
+.item-icon{
+    width: 60px;
+    height: 60px;
+    border: 3px solid #FF8B38;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 auto;
+}
+.item-icon i{
+    font-size: 30px;
+    color: #FF8B38;
+}
+/*Awesome part css end from here */
+
+
+/* Pricing part css start from here */
+.pricing{
+    width: 100%;
+    padding: 100px 0;
+    padding-bottom: 80px;
+    background: #F5F5F5;
+}
+.pricing-bottom{
+    align-items: flex-end;
+}
+.pricing .card{
+    margin: 0 20px;
+    text-align: center;
+    border: none;
+}
+.pricing .card-header{
+    background: #333333;
+    padding: 20px 0;
+    border-bottom: 1px solid #F5F5F5;
+}
+.pricing .card-header h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.pricing .card-body{
+    margin: 0;
+    padding: 0;
+    background: #333333;
+    border-bottom: 5px solid #FF8B38;
+}
+.pricing .card-body h4{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    color: #ffffff;
+}
+.pricing .card-body span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 94px;
+}
+.pricing .card-body p{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.pricing .card-body h5{
+    background: #FF8B38;
+    margin-bottom: 0;
+    padding: 10px 0;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.pricing .card-footer{
+    border: none;
+    padding: 0;
+    background: #fff;
+}
+.pricing .card-footer ul li{
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #e1e1e1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+}
+.pricing .card-footer ul li:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.middle .card-body{
+    border-bottom: none;
+}
+/* Pricing part css end from here */
+
+
+
+/* Customer css start from here */
+.customer{
+    width: 100%;
+    padding: 100px 0;
+    padding-bottom: 80px;
+}
+.customer .p-text{
+    background: #F5F5F5;
+    padding: 10px;
+    z-index: 1;
+}
+.customer .p-text p{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: italic !important;
+    color: #86878b;
+    letter-spacing: 1px;
+    position: relative;
+}
+.trianlge{
+    height: 40px;
+    width: 40px;
+    background: #F5F5F5;
+    position: absolute;
+    left: 30px;
+    bottom: -10px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+.cus-top{
+    margin-bottom: 30px;
+}
+.cus-info{
+    padding: 10px 0;
+}
+.cus-info h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    margin: 0;
+}
+.cus-info p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin: 0;
+}
+/* Customer css end from here */
+
+
+/* Stylish part css start from here */
+.stylish{
+    width: 100%;
+    padding: 75px 0;
+    padding-bottom: 60px;
+    background: url(../img/footer-img.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.stylish .awesome-top{
+    margin-bottom: 0;
+}
+.stylish h1{
+    color: #ffffff;
+}
+.stylish .line{
+    background: #fff;
+}
+.stylish p{
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.stylish button{
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    border: 3px solid #fff;
+    padding: 8px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+/* Stylish part css end from here */
+
+/* Contact part css start from here */
+.contact{
+    width: 100%;
+    padding: 100px 0;
+    padding-bottom: 80px;
+}
+.contact textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    height: 144px;
+    outline: none;
+    color: #bdbdbd;
+}
+.contact .form-control{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid #bdbdbd;
+    border-radius: 0;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #bdbdbd;
+    font-size: 14px;
+}
+.contact .button-area{
+    text-align: center;
+}
+.contact .button-area button{
+    border: none;
+    background: transparent;
+    color: #fff;
+    background: #FF9B51;
+    padding: 8px 20px;
+    border-radius: 3px;
+    outline: none;
+    margin-top: 15px;
+}
+/* Contact part css end from here */
+
+/* Footer part css start from here */
+.footer{
+    width: 100%;
+    background: #000000;
+    padding: 20px 0;
+}
+.footer ul{
+    margin: 0;
+    text-align: center;
+    list-style: none;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer ul li a i{
+    color: #ffffff;
+    font-size: 24px;
+}
+.footer p{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+/* Footer part css end from here */
+
